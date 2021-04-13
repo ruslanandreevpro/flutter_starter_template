@@ -16,10 +16,10 @@ void main() async {
   Get.put<AuthController>(AuthController());
   Get.put<ThemeController>(ThemeController());
   Get.put<LanguageController>(LanguageController());
-  runApp(RespeqCustomerApp());
+  runApp(FlutterStarterApp());
 }
 
-class RespeqCustomerApp extends StatelessWidget {
+class FlutterStarterApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     ThemeController.to.getThemeModeFromStore();
