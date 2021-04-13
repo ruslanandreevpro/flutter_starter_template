@@ -5,7 +5,6 @@ import 'package:flutter_starter_template/constants/constants.dart';
 import 'package:flutter_starter_template/controllers/controllers.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-
 import 'ui/components/components.dart';
 
 void main() async {
