@@ -11,6 +11,13 @@ class AuthUI extends StatelessWidget {
             Spacer(),
             ElevatedButton(
               onPressed: () {
+                Get.toNamed("/signin");
+              },
+              child: Text("По электронной почте"),
+            ),
+            SizedBox(height: 24.0,),
+            ElevatedButton(
+              onPressed: () {
                 Get.toNamed("/phone_auth");
               },
               child: Text("По номеру телефона"),
